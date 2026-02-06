@@ -1,0 +1,15 @@
+{
+  "frontend/src/App.tsx": "Main application component that handles authentication state and renders appropriate dashboard (Staff or Admin) based on user role with theme provider and toast notifications.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for all backend operations including updated createBooking and updateBooking mutations with new financial and customer fields (vehicleNo, customerName, customerNo, startingKm, endingKm, ratePerKm, tollTax, dieselOrGasByCustomer).",
+  "frontend/src/components/Header.tsx": "Application header with branding, role indicator, theme toggle, and user dropdown menu displaying truncated principal ID with logout functionality.",
+  "frontend/src/components/Footer.tsx": "Simple footer component with copyright notice and caffeine.ai attribution link.",
+  "frontend/src/components/ProfileSetupModal.tsx": "Modal dialog for first-time user profile setup that prompts authenticated users to enter their name.",
+  "frontend/src/pages/LoginPage.tsx": "Landing page with hero section, login button for Internet Identity authentication, and feature cards showcasing app capabilities.",
+  "frontend/src/pages/StaffDashboard.tsx": "Staff member dashboard displaying personal booking statistics, active and historical bookings with tabs, vehicle information in bookings, and new booking creation functionality.",
+  "frontend/src/pages/AdminDashboard.tsx": "Administrator dashboard with comprehensive statistics, all staff bookings overview, success metrics, and vehicle management interface with multiple tabs showing vehicle types and availability.",
+  "frontend/src/components/BookingForm.tsx": "Comprehensive booking form dialog with vehicle selection, customer information, location details, and financial fields including automatic calculation of totalKm, totalAmount, and netAmount with real-time display.",
+  "frontend/src/components/BookingList.tsx": "Enhanced booking list displaying cards with vehicle details, customer information, distance tracking, and financial summary including total amount, toll tax, diesel/gas costs, and net amount with responsive grid layout.",
+  "frontend/src/components/CabManagement.tsx": "Admin component for viewing cab fleet, displaying cab availability and locations, and adding new cabs to the system.",
+  "frontend/src/index.css": "Global styles with OKLCH color system featuring a purple/blue primary color scheme optimized for both light and dark modes.",
+  "frontend/src/components/VehicleManagement.tsx": "Admin component for managing vehicle fleet with vehicle type selection using VehicleType enum, displaying vehicle availability and locations, adding new vehicles, toggling availability, and deleting vehicles from the system."
+}
